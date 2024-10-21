@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+
+.fw-montserrat-thin{
+    font-weight: 100;
+}
+
+.fw-montserrat-extralight{
+    font-weight: 200;
+}
+
+.fw-montserrat-light{
+    font-weight: 300;
+}
+
+.fw-montserrat-regular{
+    font-weight: 400;
+}
+
+.fw-montserrat-medium{
+    font-weight: 500;
+}
+
+.fw-montserrat-semibold{
+    font-weight: 600;
+}
+
+.fw-montserrat-bold{
+    font-weight: 700;
+}
+
+.fw-montserrat-extrabold{
+    font-weight: 800;
+}
+
+.fw-montserrat-black{
+    font-weight: 900;
+}
+
+.fw-lora-regular{
+    font-weight: 400;
+}
+
+.fw-lora-medium{
+    font-weight: 500;
+}
+
+.fw-lora-semibold{
+    font-weight: 600;
+}
+
+.fw-lora-bold{
+    font-weight: 700;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+.color-blue {
+    color: #2E37A4;
+}
+.color-navy {
+    color: #161A4F;
+}
+.color-orange {
+    color: #FE721C;
+}
+.color-white {
+    color: #fff;
+}
+.color-grey {
+  color: #a0a0a0;
+}
+.color-tosca {
+  color: #0DBC9C;
+}
+
+.bg-blue {
+    background-color: #2E37A4;
+}
+.bg-tosca {
+    background-color: #0DBC9C;
+}
+.bg-grey {
+    background-color: #ABABAB;
+}
+.bg-orange {
+    background-color: #FE721C;
+}
+.bg-navy {
+    background-color: #161A4F;
+}
+.bg-yellow {
+    background-color: #F9B234;
+}
+.bg-whitesmoke {
+    background-color: #EAEAEA;
+}
+
+.btn-big{
+  border-radius: 5rem;
+}
+
+.btn-orange {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+  .btn-orange:hover {
+    color: #fff;
+    background-color: #161A4F;
+    border-color: #161A4F;
+  }
+  .btn-check:focus + .btn-orange, .btn-orange:focus {
+    color: #fff;
+    background-color: #161A4F;
+    border-color: #161A4F;
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 0, 0.5);
+  }
+  .btn-check:checked + .btn-orange, .btn-check:active + .btn-orange, .btn-orange:active, .btn-orange.active, .show > .btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+  .btn-check:checked + .btn-orange:focus, .btn-check:active + .btn-orange:focus, .btn-orange:active:focus, .btn-orange.active:focus, .show > .btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 102, 0, 0.5);
+  }
+  .btn-orange:disabled, .btn-orange.disabled {
+    color: #fff;
+    background-color: #FE721C;
+    border-color: #FE721C;
+  }
+
+  .btn-tosca {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-tosca:hover {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-check:focus + .btn-tosca, .btn-tosca:focus {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+    box-shadow: 0 0 0 0.25rem rgba(49, 253, 236, 0.5);
+  }
+  .btn-check:checked + .btn-tosca, .btn-check:active + .btn-tosca, .btn-tosca:active, .btn-tosca.active, .show > .btn-tosca.dropdown-toggle {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-check:checked + .btn-tosca:focus, .btn-check:active + .btn-tosca:focus, .btn-tosca:active:focus, .btn-tosca.active:focus, .show > .btn-tosca.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 253, 236, 0.5);
+  }
+  .btn-tosca:disabled, .btn-tosca.disabled {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+
+  .btn-yellow {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+  .btn-yellow:hover {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-check:focus + .btn-yellow, .btn-yellow:focus {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+    box-shadow: 0 0 0 0.25rem rgba(253, 239, 49, 0.5);
+  }
+  .btn-check:checked + .btn-yellow, .btn-check:active + .btn-yellow, .btn-yellow:active, .btn-yellow.active, .show > .btn-yellow.dropdown-toggle {
+    color: #fff;
+    background-color: #0DBC9C;
+    border-color: #0DBC9C;
+  }
+  .btn-check:checked + .btn-yellow:focus, .btn-check:active + .btn-yellow:focus, .btn-yellow:active:focus, .btn-yellow.active:focus, .show > .btn-yellow.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(253, 239, 49, 0.5);
+  }
+  .btn-yellow:disabled, .btn-yellow.disabled {
+    color: #fff;
+    background-color: #F9B234;
+    border-color: #F9B234;
+  }
+
+  .navactive {
+    color: #0DBC9C;
+    font-weight: bold;
+  }
+
+  /* star rating  */
+
+  .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 6vw;
+    color: #FFD600;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+/* progress bar  */
+
+.container-bar {
+  margin: 30px auto;
+  width: 400px;
+  text-align: center;
+}
+
+.container .progress {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.progress {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 16px;
+  border-radius: 4px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*
+ * Note: using adjacent or general sibling selectors combined with
+ *       pseudo classes doesn't work in Safari 5.0 and Chrome 12.
+ *       See this article for more info and a potential fix:
+ *       https://css-tricks.com/webkit-sibling-bug/
+ */
+
+#five:checked ~ .progress > .progress-bar {
+  width: 5%;
+  background-color: #f63a0f;
+}
+
+#twentyfive:checked ~ .progress > .progress-bar {
+  width: 25%;
+  background-color: #f27011;
+}
+
+#fifty:checked ~ .progress > .progress-bar {
+  width: 50%;
+  background-color: #f2b01e;
+}
+
+#seventyfive:checked ~ .progress > .progress-bar {
+  width: 75%;
+  background-color: #f2d31b;
+}
+
+#onehundred:checked ~ .progress > .progress-bar {
+  width: 100%;
+  background-color: #86e01e;
+}
+
+.radio {
+  display: none;
+}
+
+.label {
+  display: inline-block;
+  margin: 0 5px 20px;
+  padding: 3px 8px;
+  color: #aaa;
+  text-shadow: 0 1px black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.radio:checked + .label {
+  color: white;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* payment  */
+.card-payment {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 5px 6px 6px 2px #e9ecef
+}
+
+.heading {
+  font-size: 23px;
+  font-weight: 00
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #b1b6bd
+}
+
+.pricing {
+  border: 2px solid #2E37A4;
+  background-color: #eaeaea
+}
+
+.business {
+  font-size: 20px;
+  font-weight: 500
+}
+
+.plan {
+  color: #aba4a4
+}
+
+.dollar {
+  font-size: 16px;
+  color: #6b6b6f
+}
+
+.amount {
+  font-size: 50px;
+  font-weight: 500
+}
+
+.year {
+  font-size: 20px;
+  color: #6b6b6f;
+  margin-top: 19px
+}
+
+.detail {
+  font-size: 22px;
+  font-weight: 500
+}
+
+.cvv {
+  height: 44px;
+  width: 73px;
+  border: 2px solid #eee
+}
+
+.cvv:focus {
+  box-shadow: none;
+  border: 2px solid #304FFE
+}
+
+.email-text {
+  height: 55px;
+  border: 2px solid #eee
+}
+
+.email-text:focus {
+  box-shadow: none;
+  border: 2px solid #304FFE
+}
+
+.payment-button {
+  height: 70px;
+  font-size: 20px
+}
+
+
+/* chat  */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

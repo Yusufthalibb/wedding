@@ -1,0 +1,132 @@
+@media (max-width: 991.98px) {
+
+	/*Global*/
+	.sections-detail {
+		margin: 0 0 30px;
+	}
+	/*Banner*/
+	.wedding-template .banner .top-bar-left a {
+		font-size:17px;
+	}
+	.wedding-template .banner .banner-content .content-col {
+		padding-left: 30px;
+	}
+	/*Service*/
+	.wedding-template .service-section .service-detail > div {
+		margin-bottom: 40px;
+	}
+	.wedding-template .best-class-club .detail-col-club {
+		padding-right: 15px;
+	}
+	/*Class wedding Club*/
+	.wedding-template .best-class-club .best-class-club-desc {
+		padding: 60px 30px;
+	}
+	.wedding-template .best-class-club .best-class-club-img {
+		padding: 250px 0;
+	}
+	/*Advantages*/
+	.wedding-template  .advantages-section {
+		padding: 60px 15px;
+	}
+	.wedding-template  .advantages-section {
+		background-image: url(../img/advantages-of-wedding-mobile.jpg);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	}
+	.wedding-template  .advantages-section .section-title{
+		color: #fe86d4;
+	}
+	.wedding-template  .advantages-section .section-title-desc {
+		color: #fff;
+	}
+	.wedding-template .advantages-section .advantages-detail-title {
+		color: #fe86d4;
+    	margin-top: 10px;
+	}
+	.wedding-template .advantages-section .advantages-detail-desc {
+		color: #fff;
+	}
+	.wedding-template .advantages-section .advantages-detail-soul,
+	.wedding-template .advantages-section .advantages-detail-health,
+	.wedding-template .advantages-section .advantages-detail-relax,
+	.wedding-template .advantages-section .advantages-detail-energy,
+	.wedding-template .advantages-section .advantages-detail-mind,
+	.wedding-template .advantages-section .advantages-detail-meditat {
+		width: 100%;	
+		text-align: center;
+		margin: 0 auto 24px;
+	}
+	/*wedding Place*/
+	.wedding-template .weddingPlace-section .weddingPlace-col > div{
+		margin-bottom: 40px;
+	}
+	/*Contact us*/
+	.wedding-template .contact-section .appointment 
+	.appointment-form .box-select::before {
+	    content: "\f0dd";
+	    font-family: "Font Awesome 5 Free";
+	    position: absolute;
+	    top: 41%;
+	    right: -0.5%;
+	    width: 35px;
+	    height: 38px;
+	    text-align: center;
+	    font-size: 14px;
+	    line-height: 37px;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(123, 108, 213);
+	    font-weight: 600;
+	    border-radius: 3px;
+	    transform: translate(-50%, -50%);
+	}
+	.wedding-template .contact-section .appointment 
+	.appointment-form .appointment-form-col-left {
+		padding-right: 15px;
+	}
+	.wedding-template .contact-section .appointment 
+	.appointment-form .appointment-form-col-right {
+		padding-left: 15px;
+	    padding-right: 15px;
+	}
+	/* Trainers*/
+	.wedding-template .trainer-section .trainer-col {
+		margin-bottom: 0px;
+	}
+	.wedding-template .trainer-section .trainer-col > div{
+		margin-bottom: 40px;
+	}
+	/*Copyright*/
+	.wedding-template .footer .copyright,
+	.wedding-template .footer .copyright .social {
+		text-align: center;
+	}
+}
+@media (max-width: 767.98px)  { 
+	/*Banner*/
+	.wedding-template .banner .top-bar,
+	.wedding-template .banner .top-bar-right {
+		text-align: center;
+	}
+	/*Contact us*/
+	.wedding-template .contact-section .appointment 
+	.appointment-form .box-select::before {
+	    content: "\f0dd";
+	    font-family: "Font Awesome 5 Free";
+	    position: absolute;
+	    top: 41%;
+	    right: -0.6%;
+	    width: 35px;
+	    height: 38px;
+	    text-align: center;
+	    font-size: 14px;
+	    line-height: 37px;
+	    color: rgb(255, 255, 255);
+	    background-color: rgb(123, 108, 213);
+	    font-weight: 600;
+	    border-radius: 3px;
+	    transform: translate(-50%, -50%);
+	}
+
+}

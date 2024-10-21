@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	color: #555;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: normal;
+	text-align: left;
+}
+.teks-nama {
+	font-family: 'Tangerine', cursive;
+}
+.teks-arab {
+	font-family: 'Scheherazade', serif;
+}
+h1,h2,h3,
+h4,h5,h6 {
+	line-height: inherit;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1,h2,h3,
+h4,h5,h6,p,ul,li,a,span {
+	margin:0;
+}
+a {
+	text-decoration: none;
+	color:#555;
+	cursor: pointer;
+}
+.main-container {
+	max-width: 1920px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;	
+}
+.inside-container {
+	max-width: 940px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.sections-detail {
+	margin: 0 0 55px;
+}
+.section-title {
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0.84px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+.section-title-desc {
+	font-size: 15px;
+	letter-spacing: 0.45px;
+	color: #666;
+	text-align: center;
+}
+/*Banner*/
+.wedding-template .banner {
+	/* background-image: url(../img/g4.jpg); */
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.bgbunga {
+	background-image: url(../img/bungaframe1.png);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.bgpink {
+	background-image: url(../img/bgpink.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.bgbrown {
+	background-image: url(../img/bgbrown.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: auto;
+	color:#fff;
+	position: relative;
+}
+.wedding-template .banner .banner-overlay {
+	position: absolute;
+	top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 2;
+}
+.wedding-template .banner .top-bar{
+	padding:26px 15px; 
+	border-bottom: 1px solid #fff;
+}
+.wedding-template .banner .top-bar-left ,
+.top-bar-right {
+	padding-top: 24px;	
+	z-index: 3;
+}
+.wedding-template .banner .top-bar-left a {
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	vertical-align: middle
+}
+.wedding-template .banner .logo {
+	text-align: center;
+	z-index: 3;
+}
+.wedding-template .banner .top-bar-right {
+	text-align: right;
+}
+.wedding-template .banner .top-bar-right a {
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+	font-size: 18px;
+	letter-spacing: 0.18px;
+	font-weight: 400;
+	vertical-align: middle
+}
+.wedding-template .banner .top-bar-left a:hover,
+.wedding-template .banner .top-bar-right a:hover{
+	color:#fe86d4;
+	text-decoration: none;
+}
+.wedding-template .banner .top-bar-left i,
+.top-bar-right i {
+	font-size: 16px;
+    background-color: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    color: #3e2d40;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+.wedding-template .banner .banner-content {
+	padding: 126px 15px;
+}
+.wedding-template .banner .banner-content .content-col {
+	text-align: center;
+	z-index: 3;
+}
+.wedding-template .banner .banner-content .site-title {
+	
+	font-size: 100px;
+	line-height: 90px;
+	font-weight: 700;
+	margin-bottom: 18px;
+	padding-right: 15px;
+}
+.wedding-template .banner .banner-content .site-title-desc {
+	font-size: 26px;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	margin-bottom: 51px;
+	width: 97%;
+}
+.wedding-template .banner .banner-content a.banner-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	padding: 21px 32px 19px;
+	background-color: transparent;
+	border: white solid 2px;
+	color:#fff;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+.wedding-template .banner .banner-content a.banner-btn:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
+/*Service*/
+.wedding-template .service-section {
+	padding: 62px 15px;
+}
+.wedding-template .service-section .service-detail {
+	text-align: center;
+}
+.wedding-template .service-section .service-detail a:hover {
+	text-decoration: none;
+}
+.wedding-template .service-section .service-detail a:hover .service-title{
+	text-decoration: none;
+	color: #fe86d4;
+}
+.wedding-template .service-section .service-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.75px;
+	color: #000;
+	margin-bottom: 15px;
+}
+.wedding-template .service-section .service-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.40px;
+}
+.wedding-template .service-section .service-detail-img {
+	max-width: 90px;
+ 	height: auto;
+}
+/*Class wedding Club*/
+.wedding-template .best-class-club .detail-col-club{
+	padding-bottom: 10px;
+}
+.wedding-template .best-class-club .best-class-club-desc {
+	background-color: #f5f5f5;
+	padding: 60px 15px;
+}
+.wedding-template .best-class-club .best-class-club-desc .club-section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    color: #E55680;
+    font-weight: 600;
+	text-align: left;
+}
+.wedding-template .best-class-club .best-class-club-desc ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 13px;
+}
+.wedding-template .best-class-club .best-class-club-desc ul li {
+  padding-left: 1.3em;
+  margin-bottom: 10px;
+}
+.wedding-template .best-class-club .best-class-club-desc ul li:before {
+  content:"\f0e7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em;
+  font-size: 12px;
+  line-height: 40px;
+  color: #E55680; 
+}
+.wedding-template .best-class-club .best-class-club-img {
+	background-image: url(../img/the-best-class-wedding.jpg);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+/*Advantages*/
+.wedding-template .advantages-section {
+	padding: 60px 15px 270px;
+}
+.wedding-template .advantages-section {
+	background-image: url(../img/advantages-of-wedding.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.wedding-template .advantages-section .advantages-detail a:hover {
+	text-decoration: none;
+}
+.wedding-template .advantages-section .advantages-detail a:hover .advantages-detail-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.wedding-template .advantages-section .advantages-detail-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 600;
+	color: #444;
+}
+.wedding-template .advantages-section .advantages-detail-desc {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 25px;
+	letter-spacing: 0.45px; 
+	color: #666;
+}
+.wedding-template .advantages-section .advantages-detail-img svg{
+	max-width: 50px;
+	height: auto;
+}
+.wedding-template .advantages-section .advantages-detail-soul,
+.wedding-template .advantages-section .advantages-detail-health,
+.wedding-template .advantages-section .advantages-detail-relax {
+	text-align: right;
+	width: 50%;	
+}
+.wedding-template .advantages-section .advantages-detail-soul {
+	margin: 0 0 24px auto; 
+}
+.wedding-template .advantages-section .advantages-detail-health {
+	margin: 0 auto 24px;
+}
+.wedding-template .advantages-section .advantages-detail-energy,
+.wedding-template .advantages-section .advantages-detail-mind,
+.wedding-template .advantages-section .advantages-detail-meditat {
+	width: 50%;	
+}
+.wedding-template .advantages-section .advantages-detail-energy {
+	margin-bottom: 24px;
+}
+.wedding-template .advantages-section .advantages-detail-mind {
+	margin: 0 auto 24px;
+}
+.wedding-template .advantages-section .advantages-detail-meditat {
+	margin-left: auto; 
+}
+/*wedding Place*/
+.wedding-template .weddingPlace-section {
+	padding: 60px 15px;
+	text-align: center;
+}
+.wedding-template .weddingPlace-section .weddingPlace-img {
+	width: 145px;
+    height: 145px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+    overflow: hidden;
+}
+.wedding-template .weddingPlace-section .weddingPlace-img .weddingPlace-in-img {
+	max-width: 145px;
+    border-radius: 50%;
+}
+.wedding-template .weddingPlace-section .weddingPlace-col a:hover {
+	text-decoration: none;
+}
+.wedding-template .weddingPlace-section .weddingPlace-col a:hover .weddingPlace-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.wedding-template .weddingPlace-section .weddingPlace-title {
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0.88px;
+	font-weight: 600;
+	color: #434343;
+}
+.wedding-template .weddingPlace-section .weddingPlace-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 25px;
+	letter-spacing: 0.45px;
+	font-weight: 400;
+	color: #666;
+}
+/*Contact us*/
+.wedding-template .contact-section {
+	padding: 60px 15px; 
+}
+.wedding-template .contact-section .appointment {
+ 	border: 1px solid #666; 
+ 	border-radius: 3px;
+ 	padding: 30px 28px 25px;
+}
+.wedding-template .contact-section .appointment .appointment-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+	text-align: center;
+	color:#E55680;
+}
+.wedding-template .contact-section .appointment .appointment-desc {
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	color:#888;
+	text-align: center;
+}
+ .wedding-template .contact-section .appointment .appointment-form {
+ 	margin-top: 40px;
+ }
+.wedding-template .contact-section .appointment 
+.appointment-form  .appointment-form-input {
+	border: 1px solid #999;
+	height: 38px;
+	margin-bottom: 9px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.wedding-template .contact-section .appointment 
+.appointment-form  .data-input {
+	text-transform: uppercase;
+}
+.wedding-template .contact-section .appointment 
+.appointment-form .appointment-form-text {
+	border: 1px solid #999;
+	margin-bottom: 20px;
+	font-size: 12px;
+	line-height: 40px;
+	letter-spacing: 0.48px;
+}
+.wedding-template .contact-section .appointment 
+.appointment-form .box-select::before {
+    content: "\f0dd";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 41%;
+    right: -5%;
+    width: 35px;
+    height: 38px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 37px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 108, 213);
+    font-weight: 600;
+    border-radius: 3px;
+    transform: translate(-50%, -50%);
+}
+.wedding-template .contact-section .appointment 
+.appointment-form .appointment-form-col-left {
+	padding-right: 7px;
+}
+.wedding-template .contact-section .appointment 
+.appointment-form .appointment-form-col-right {
+	padding-left: 7px;
+    padding-right: 7px;
+}
+
+.wedding-template .contact-section .appointment 
+.appointment-form .appointment-form-btn {
+	width: 100%;
+    padding: 18px 0 13px;
+    background-color: #E55680;
+    border: 1px solid #E55680;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.wedding-template .contact-section .open-time {
+	text-align: center;
+}
+.wedding-template .contact-section .open-time .weekdays {
+	margin-top: 50px;
+}
+.wedding-template .contact-section .open-time .weekends {
+	margin-top: 40px;
+}
+.wedding-template .contact-section .open-time .open-time-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 600;
+	letter-spacing: 0.25px;
+	color: #E55680;
+	margin-bottom: 5px;
+}
+.wedding-template .contact-section .open-time .open-time-clock {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 40px;
+	letter-spacing: 0.72px;
+	font-weight: 600;
+	color:#444;
+}
+.wedding-template .contact-section .open-time .open-time-course {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 40px;
+	letter-spacing: 0.6px;
+	color: inherit;
+}
+/* Trainers*/
+.wedding-template .trainer-section {
+	padding: 60px 15px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.wedding-template .trainer-section .trainer-col {
+	margin-bottom: 40px;
+}
+.wedding-template .trainer-section .trainer-img {
+	width: 182px;
+    height: 182px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+    overflow: hidden;
+    border: unset;
+} 
+.wedding-template .trainer-section .trainer-img .trainer-in-img {
+	max-width: 182px;
+	border-radius: 50%;
+}
+.wedding-template .trainer-section .trainer-col a:hover {
+	text-decoration: none;
+}
+.wedding-template .trainer-section .trainer-col a:hover .trainer-title {
+	text-decoration: none;
+	color: #fe86d4;
+}
+.wedding-template .trainer-section .trainer-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 0.8px;
+	font-weight: 600;
+	color: #444;
+}
+.wedding-template .trainer-section .trainer-desc {
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 40px;
+	letter-spacing: 0.45px;
+	font-style: italic;
+	font-weight: 400;
+	color: #666;
+}
+.pink-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	color:#fff;
+	text-transform:uppercase; 
+	background-color: #E55680;
+	border: 1px solid #E55680;
+	border-radius: 3px;
+	padding: 10px 20px;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/*Join Us*/
+.wedding-template .join-us-section {
+	padding: 55px 15px;
+	text-align: center;
+}
+.wedding-template .join-us-section .join-us-btn {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.6px;
+	font-weight: 700;
+	color:#fff;
+	text-transform:uppercase; 
+	background-color: #E55680;
+	border: 1px solid #E55680;
+	border-radius: 3px;
+	padding: 21px 52px 19px 53px;
+}
+.wedding-template .join-us-section .join-us-btn:hover {
+	text-decoration: none;
+	color: #E55680;
+	background-color: transparent;
+	border: #E55680 solid 2px;
+}
+.wedding-template .join-us-section .join-us-call {
+	font-family: inherit;
+	font-size: 16px;
+	line-height: 40px;
+	letter-spacing: 0.64px;
+	margin-top: 22px;
+}
+.wedding-template .join-us-section .join-us-phone-nr {
+	font-family: inherit;
+	font-size: 18px;
+	line-height: inherit;
+	letter-spacing: inherit;
+	font-weight: 600;
+	color: #222;
+}
+.wedding-template .join-us-section .join-us-phone-nr:hover {
+	text-decoration: none;
+	color: #fe86d4;
+}
+/*Copyright*/
+.wedding-template .footer .copyright {
+	padding: 50px 15px;
+	background-color: #E55680;
+	color: #fff;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 26px;
+}
+.wedding-template .footer .copyright .created-by {
+	color: #fff;
+}
+.wedding-template .footer .copyright .created-by:hover {
+	color: #fe86d4;
+	text-decoration: none;
+}
+.wedding-template .footer .copyright .social {
+	text-align: right;
+	font-size: 14px;
+	line-height: 26px;
+}
+.wedding-template .footer .copyright .social a {
+	color: #fff;
+}
+.wedding-template .footer .copyright .social a:hover {
+	color: #fe86d4;
+}
+.wedding-template .footer .copyright .social .fab {
+	padding-left: 14px;
+}
